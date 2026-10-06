@@ -1331,6 +1331,11 @@ h3 {
 }
 
 .social-arrow {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  align-self:center;
   margin-left:auto;
 }
 
@@ -1343,12 +1348,12 @@ h3 {
   color:var(--muted);
 }
 
-.contact-direct>a:first-child {
+.contact-direct>span {
   flex-basis:100%;
 }
 
 .contact-direct a {
-  overflow-wrap:anywhere;
+  white-space:nowrap;
   text-decoration:underline;
   text-underline-offset:4px;
 }
@@ -1460,8 +1465,9 @@ h3 {
   }
   .social-arrow {
     position:absolute;
-    top:18px;
+    top:50%;
     right:18px;
+    transform:translateY(-50%);
   }
 }
 
@@ -1502,6 +1508,7 @@ h3 {
   }
   .social-arrow {
     position:static;
+    transform:none;
   }
   .footer-bottom {
     flex-wrap:wrap;
@@ -1679,4 +1686,20 @@ h3 {
   .hero-focus-card { right:-2px; top:-12px; }
   .hero-details { gap:8px 18px; font-size:12px; }
   .hero-image { margin-top:6px; }
+}
+
+/* Inline Lucide icons inherit the theme and never use emoji font rendering. */
+.external-link-icon {
+  display:block;
+  width:18px;
+  height:18px;
+  flex-shrink:0;
+  stroke-width:2;
+}
+.card-symbol .external-link-icon {
+  width:24px;
+  height:24px;
+}
+.social-card>span:not(.social-arrow) {
+  min-width:0;
 }

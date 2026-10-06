@@ -6,12 +6,15 @@
 
 - [Live portfolio](https://sereneklenam-hub.github.io/Portfolio/)
 - [Repository owner](https://github.com/SereneKlenam-hub)
+- [Contributor](https://github.com/rawdela)
 
 ## Contributors
 
 Development contributors help implement, refine and maintain the website. Their role is technical assistance, not portfolio ownership. Git history and pull requests record individual development contributions; no contributor is presented as the subject of this portfolio.
 
 ## Resources
+
+- The inline **ExternalLink** SVG is from [Lucide](https://lucide.dev/icons/external-link), derived from Feather. Its third-party license notices are preserved in [assets/licenses/lucide.txt](assets/licenses/lucide.txt).
 
 - **DM Sans** and **Manrope** are served through Google Fonts, with system-font fallbacks. These third-party fonts retain their respective licenses.
 - The profile photograph and social preview image are supplied personal assets. They are not covered by the source-code MIT license.
