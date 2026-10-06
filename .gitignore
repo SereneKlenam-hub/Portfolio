@@ -1,0 +1,32 @@
+# OS metadata
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor-local settings and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local tooling, caches and generated output
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+coverage/
+playwright-report/
+test-results/
+*.log

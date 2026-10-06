@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private security report
+    url: mailto:mensahserene2020@gmail.com
+    about: Send security concerns privately to Serene rather than posting a public issue.
